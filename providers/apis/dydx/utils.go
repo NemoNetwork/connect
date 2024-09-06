@@ -16,7 +16,7 @@ import (
 
 const (
 	// Name is the name of the MarketMap provider.
-	Name = "dydx_api"
+	Name = "nemo_api"
 
 	// SwitchOverAPIHandlerName is the name of the dYdX switch over API.
 	SwitchOverAPIHandlerName = "dydx_migration_api"
@@ -28,10 +28,10 @@ const (
 	ResearchCMCAPIHandlerName = "dydx_research_coinmarketcap_api"
 
 	// ChainID is the chain ID for the dYdX market map provider.
-	ChainID = "dydx-node"
+	ChainID = "nemo-testnet"
 
 	// Endpoint is the endpoint for the dYdX market map API.
-	Endpoint = "%s/dydxprotocol/prices/params/market?pagination.limit=10000"
+	Endpoint = "%s/nemo_network/prices/params/market?pagination.limit=10000"
 
 	// Delimiter is the delimiter used to separate the base and quote assets in a pair.
 	Delimiter = "-"
